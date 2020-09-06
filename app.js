@@ -67,14 +67,6 @@ app.use(express.static(path.join(__dirname, "public")));
 app.use("/uploads", express.static(path.join(__dirname, "uploads")));
 
 app.use(
-  "/static-cms",
-  express.static(path.join(__dirname, "views/cms/build/static-cms"))
-);
-app.use(
-  "/static-client",
-  express.static(path.join(__dirname, "views/client/build/static-client"))
-);
-app.use(
   "/static",
   express.static(path.join(__dirname, "views/web/build/static"))
 );
@@ -101,14 +93,6 @@ require("./seeds/training.seed");
 require("./seeds/statistic.seed");
 
 //--- sendFile file
-app.use("/admin", (req, res) => {
-  res.sendFile(path.join(__dirname, "views/cms/build/index.html"));
-});
-
-app.use("/client", (req, res) => {
-  res.sendFile(path.join(__dirname, "views/client/build/index.html"));
-});
-
 app.use("/", (req, res) => {
   res.sendFile(path.join(__dirname, "views/web/build/index.html"));
 });
