@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/static/css/main.f0315fe5.chunk.css",
+    "main.js": "/static/js/main.d763a234.chunk.js",
+    "runtime~main.js": "/static/js/runtime~main.ab48eb40.js",
+    "static/css/2.45247525.chunk.css": "/static/css/2.45247525.chunk.css",
+    "static/js/2.b8ad9841.chunk.js": "/static/js/2.b8ad9841.chunk.js",
+    "index.html": "/index.html",
+    "precache-manifest.448a1b2fbba75fa2393b024f34509d7e.js": "/precache-manifest.448a1b2fbba75fa2393b024f34509d7e.js",
+    "service-worker.js": "/service-worker.js",
+    "static/media/home.css": "/static/media/bg_it.ada4d288.jpg",
+    "static/media/logoTT.png": "/static/media/logoTT.bd8ae633.png",
+    "static/media/momo.jpg": "/static/media/momo.98848957.jpg",
+    "static/media/paypal.png": "/static/media/paypal.5c96d64b.png",
+    "static/media/slider.css": "/static/media/sl3.986cc096.jpg",
+    "static/media/st2.jpg": "/static/media/st2.2c94a5db.jpg",
+    "static/media/tn2.png": "/static/media/tn2.0da7b7cb.png",
+    "static/media/tn3.png": "/static/media/tn3.335ccea1.png",
+    "static/media/tn4.png": "/static/media/tn4.078ef53a.png",
+    "static/media/tn5.png": "/static/media/tn5.7df3c1a2.png",
+    "static/media/tn6.png": "/static/media/tn6.1d94fcef.png",
+    "static/media/tn7.png": "/static/media/tn7.807f6c2e.png",
+    "static/media/tn8.png": "/static/media/tn8.9ce17b74.png"
+  }
+}
