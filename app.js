@@ -30,7 +30,7 @@ mongoose.set("toObject", {
 // Connecting to the database
 mongoose
   .connect(
-    "mongodb+srv://hoangnam:cuongquyky1@cluster0-rrm6d.mongodb.net/test?retryWrites=true&w=majority",
+    process.env.NODE_ENV == "production" ? dbConfig.url_prod : dbConfig.url_dev,
     {
       useNewUrlParser: true,
       useUnifiedTopology: true,
